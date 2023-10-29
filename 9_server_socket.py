@@ -2,7 +2,7 @@
 import socket
 def main():
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server_socket.bind(('192.23.192.1', 4545))
+    server_socket.bind(('192.168.137.1', 4545))
     server_socket.listen(1)
 
     print("Ping server is running on port 4545...")

@@ -3,7 +3,7 @@ import socket
 import time
 
 def main():
-    host = "172.23.192.1"
+    host = "192.168.137.1"
     port = 4545
     message = "Welcome to network programming world"
 
